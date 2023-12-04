@@ -1,0 +1,6 @@
+2023-10-24 10:05:41 [Worker-9: Executing the early startup extensions] INFO  eu.jsparrow.ui.a - Starting jSparrow
+2023-10-24 10:37:38 [Framework stop - Equinox Container: 4b109e76-b9ff-4a10-a6fd-be14e8589814] INFO  eu.jsparrow.ui.a - Stopping jSparrow
+2023-10-24 10:38:04 [Worker-3: Executing the early startup extensions] INFO  eu.jsparrow.ui.a - Starting jSparrow
+2023-10-24 12:48:57 [Framework stop - Equinox Container: c98d7555-cdcb-4ce4-be70-fd80c86f2232] INFO  eu.jsparrow.ui.a - Stopping jSparrow
+2023-10-24 13:43:13 [Worker-8: Executing the early startup extensions] INFO  eu.jsparrow.ui.a - Starting jSparrow
+2023-10-25 08:55:01 [Framework stop - Equinox Container: 7d8e681e-b257-48f6-9de5-6f2832054d32] INFO  eu.jsparrow.ui.a - Stopping jSparrow

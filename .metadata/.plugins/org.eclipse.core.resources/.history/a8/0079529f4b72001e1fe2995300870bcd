@@ -1,0 +1,114 @@
+package exercice3;
+
+import java.awt.FlowLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+
+public class MyFrame extends JFrame implements ActionListener {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	JButton inputMore;
+	JButton sumaDePositivos;
+	JButton sumaDeNegativos;
+	JButton sumaDePares;
+	JButton sumaDeImpares;
+	JButton cantidadDePositivos;
+	JButton cantidadDeNegativos;
+	JButton cantidadDePares;
+	JButton cantidadDeImpares;
+	JButton mediaDeTodos;
+	int[] intArray;
+	
+	MyFrame() {
+		
+		int initialInput = Integer.parseInt(JOptionPane.showInputDialog(null, "Enter a number", "Advanced Calculator", JOptionPane.INFORMATION_MESSAGE));
+		inputMore = new JButton("I want to input more");
+		sumaDePositivos = new JButton("Suma de Positivos");
+		sumaDeNegativos = new JButton("Suma de Negativos");;
+		sumaDePares = new JButton("Suma de Pares");;
+		sumaDeImpares = new JButton("Suma de Impares");;
+		cantidadDePositivos = new JButton("Cantidad De Positivos");;
+		cantidadDeNegativos = new JButton("Cantidad de Negativos");;
+		cantidadDePares = new JButton("Cantidad de Pares");;
+		cantidadDeImpares = new JButton("Cantidad de Impares");;
+		mediaDeTodos = new JButton("Media de Todos");;
+		
+		inputMore.addActionListener(this);
+		sumaDePositivos.addActionListener(this);
+		sumaDeNegativos.addActionListener(this);
+		sumaDePares.addActionListener(this);
+		sumaDeImpares.addActionListener(this);
+		cantidadDePositivos.addActionListener(this);
+		cantidadDeNegativos.addActionListener(this);
+		cantidadDePares.addActionListener(this);
+		cantidadDeImpares.addActionListener(this);
+		mediaDeTodos.addActionListener(this);
+		
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		this.setLayout(new FlowLayout());
+		
+		this.add(inputMore);
+		this.add(sumaDePositivos);
+		this.add(sumaDePares);
+		this.add(sumaDeNegativos);
+		this.add(sumaDeImpares);
+		this.add(cantidadDePositivos);
+		this.add(cantidadDeNegativos);
+		this.add(cantidadDePares);
+		this.add(cantidadDeImpares);
+		this.add(mediaDeTodos);
+		
+		this.pack();
+		this.setVisible(true);
+	}
+	
+	
+	
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		if(e.getSource()==inputMore) {
+			int numberOfDesiredInputs = Integer.parseInt(JOptionPane.showInputDialog(null, "How Many More Inputs you want", "Advanced Calculator", JOptionPane.INFORMATION_MESSAGE));
+			for(int i = 0; i <= numberOfDesiredInputs; i++) {
+				int input = Integer.parseInt(JOptionPane.showInputDialog(null, "Enter a number", "Advanced Calculator", JOptionPane.INFORMATION_MESSAGE));
+				intArray[i] = input;
+			}
+		}
+		if(e.getSource()==sumaDePositivos) {
+			
+		}
+		if(e.getSource()==sumaDeNegativos) {
+			
+		}
+		if(e.getSource()==sumaDePares) {
+			
+		}
+		if(e.getSource()==sumaDeImpares) {
+			
+		}
+		if(e.getSource()==cantidadDePositivos) {
+			
+		}
+		if(e.getSource()==cantidadDeNegativos) {
+			
+		}
+		if(e.getSource()==cantidadDePares) {
+			
+		}
+		if(e.getSource()==cantidadDeImpares) {
+					
+				}
+		if(e.getSource()==mediaDeTodos) {
+			
+		}
+		
+	}
+	
+}

@@ -1,0 +1,6 @@
+2023-10-24 10:05:41 [Worker-2: Team change listener start] INFO  jul - Started listener bound to [localhost:1595]
+2023-10-24 10:05:41 [Worker-2: Team change listener start] INFO  jul - [HttpServer] Started.
+2023-10-24 10:38:05 [Worker-6: Team change listener start] INFO  jul - Started listener bound to [localhost:1598]
+2023-10-24 10:38:05 [Worker-6: Team change listener start] INFO  jul - [HttpServer] Started.
+2023-10-24 13:43:13 [Worker-0: Team change listener start] INFO  jul - Started listener bound to [localhost:1594]
+2023-10-24 13:43:13 [Worker-0: Team change listener start] INFO  jul - [HttpServer] Started.

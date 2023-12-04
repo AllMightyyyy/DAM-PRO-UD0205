@@ -1,0 +1,6 @@
+INDEX VERSION 1.134+C:\Users\ZakariaFarih\Desktop\Nueva carpeta (2)\.metadata\.plugins\org.eclipse.jdt.core
+1569989836.index
+3287331183.index
+1865797976.index
+3036119545.index
+771674179.index

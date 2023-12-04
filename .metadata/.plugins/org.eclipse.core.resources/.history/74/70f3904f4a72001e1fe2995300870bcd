@@ -1,0 +1,98 @@
+package exercice3;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class MyFrame extends JFrame implements ActionListener {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	JButton inputMore;
+	JButton sumaDePositivos;
+	JButton sumaDeNegativos;
+	JButton sumaDePares;
+	JButton sumaDeImpares;
+	JButton cantidadDePositivos;
+	JButton cantidadDeNegativos;
+	JButton cantidadDePares;
+	JButton cantidadDeImpares;
+	JButton mediaDeTodos;
+	
+	MyFrame() {
+		
+		inputMore = new JButton("I want to input more");
+		sumaDePositivos = new JButton("Suma de Positivos");
+		sumaDeNegativos = new JButton("Suma de Negativos");;
+		sumaDePares = new JButton("Suma de Pares");;
+		sumaDeImpares = new JButton("Suma de Impares");;
+		cantidadDePositivos = new JButton("Cantidad De Positivos");;
+		cantidadDeNegativos = new JButton("Cantidad de Negativos");;
+		cantidadDePares = new JButton("Cantidad de Pares");;
+		cantidadDeImpares = new JButton("Cantidad de Impares");;
+		mediaDeTodos = new JButton("Media de Todos");;
+		
+		inputMore.addActionListener(this);
+		sumaDePositivos.addActionListener(this);
+		sumaDeNegativos.addActionListener(this);
+		sumaDePares.addActionListener(this);
+		sumaDeImpares.addActionListener(this);
+		cantidadDePositivos.addActionListener(this);
+		cantidadDeNegativos.addActionListener(this);
+		cantidadDePares.addActionListener(this);
+		cantidadDeImpares.addActionListener(this);
+		mediaDeTodos.addActionListener(this);
+		
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		this.setLayout(new FlowLayout());
+		this.pack();
+		this.setLocationRelativeTo(null);
+		
+		
+		
+		this.setVisible(true);
+	}
+	
+	
+	
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		if(e.getSource()==inputMore) {
+	
+		}
+		if(e.getSource()==sumaDePositivos) {
+			
+		}
+		if(e.getSource()==sumaDeNegativos) {
+			
+		}
+		if(e.getSource()==sumaDePares) {
+			
+		}
+		if(e.getSource()==sumaDeImpares) {
+			
+		}
+		if(e.getSource()==cantidadDePositivos) {
+			
+		}
+		if(e.getSource()==cantidadDeNegativos) {
+			
+		}
+		if(e.getSource()==cantidadDePares) {
+			
+		}
+		if(e.getSource()==cantidadDeImpares) {
+					
+				}
+		if(e.getSource()==mediaDeTodos) {
+			
+		}
+		
+	}
+	
+}
